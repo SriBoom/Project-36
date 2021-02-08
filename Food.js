@@ -31,7 +31,7 @@ class Food{
       image(this.image, 720, 220, 70, 70);
       
       if(this.foodStock!=0){
-         for(i=0;i<this.foodStock;i++){
+         for(var i=0;i<this.foodStock;i++){
              if(i%10==0){
                  x=80;
                  y=y+50;
